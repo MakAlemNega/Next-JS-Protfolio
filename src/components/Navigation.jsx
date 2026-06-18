@@ -10,7 +10,8 @@ export default function Navigation() {
     { name: "Home", href: "/" },
     { name: "Skills", href: "/#skills" },
     { name: "Projects", href: "/projects" },
-    { name: "Contact", href: "/contacts" },
+    { name: "Contacts", href: "/contacts" },
+    { name: "Hire Me", href: "/my-app/src/app/hire-me" },
   ];
 
   return (
@@ -37,7 +38,7 @@ export default function Navigation() {
               </Link>
             ))}
             <Link
-              href="/contacts"
+              href="/hire-me"
               className="rounded-lg bg-sky-500/10 border border-sky-500/20 px-4 py-2 text-sm font-medium text-sky-400 transition-all hover:bg-sky-500 hover:text-white"
             >
               Hire Me

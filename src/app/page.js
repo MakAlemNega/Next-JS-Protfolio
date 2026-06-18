@@ -110,8 +110,11 @@ export default function HomePage() {
       </section>
 
       {/* 2. SKILLS / TECH STACK SECTION */}
-      <section className="py-24 border-t border-slate-900 bg-slate-950/50 backdrop-blur-md">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section
+        id="skills"
+        className="py-24 border-t border-slate-900 bg-slate-950/50 backdrop-blur-md"
+      >
+        <div id="skills" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               My Core Expertise
