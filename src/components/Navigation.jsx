@@ -11,7 +11,6 @@ export default function Navigation() {
     { name: "Skills", href: "/#skills" },
     { name: "Projects", href: "/projects" },
     { name: "Contacts", href: "/contacts" },
-    { name: "Hire Me", href: "/my-app/src/app/hire-me" },
   ];
 
   return (
@@ -93,7 +92,7 @@ export default function Navigation() {
             </Link>
           ))}
           <Link
-            href="/contacts"
+            href="/hire-me"
             onClick={() => setIsOpen(false)}
             className="block text-center rounded-lg bg-sky-500 py-2.5 text-sm font-medium text-white"
           >
